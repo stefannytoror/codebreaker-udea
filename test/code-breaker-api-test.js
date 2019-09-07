@@ -51,7 +51,7 @@ describe('GET /setsecret:number', function() {
         should.exist(res);
         res.body.should.be.an.Object;
         should.exist(res.body.message);
-        assert.equal('ok, let the game begins', res.body.message);
+        assert.equal('Ok, let the game begins', res.body.message);
         done()
       });
   });
