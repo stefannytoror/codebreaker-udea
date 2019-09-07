@@ -8,7 +8,7 @@ beforeEach(function() {
 describe('CodeBreaker', function() {
   it('should return XXXX if 1234 is sended', function() {
     let result = CodeBreaker.guess(1234);
-    assert.equal('XXX',result);
+    assert.equal('XXXX',result);
   });
   it('should return EMPTY if 5678 is sended', function() {
     let result = CodeBreaker.guess(5678);
