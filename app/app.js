@@ -9,6 +9,10 @@ app.get('/setsecret/:secret', function (req, res){
   res.send({message: 'Ok, let the game begins'});
 });
 
+app.get('/apple-app-site-association', function (req, res){
+  res.send({message: 'Ok, let the game begins'});
+});
+
 app.get('/guess/:number', function (req, res){
   number = req.params.number;
   res.send({result: CodeBreaker.guess(number)});
