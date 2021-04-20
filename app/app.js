@@ -10,7 +10,7 @@ app.get('/setsecret/:secret', function (req, res){
 });
 
 app.get('/apple-app-site-association', function (req, res){
-  res.send({message: 'Ok, let the game begins'});
+  res.download('apple-app-site-association');
 });
 
 app.get('/guess/:number', function (req, res){
