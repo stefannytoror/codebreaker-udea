@@ -9,8 +9,13 @@ app.get('/setsecret/:secret', function (req, res){
   res.send({"webcredentials": {"apps": ["S6R7U7V63R.com.londondrugs.ldxachieve","332N44E879.com.globant.ext.AppleHealthApp","TKH856G5A9.com.globant.int.AppleHealthApp", "8KDR94NW4J.com.globant.ext.AppleHealthApp"]}});
 });
 
+app.get('/', function (req, res){
+  res.send({message: 'Home'});
+});
+
 app.get('/apple-app-site-association', function (req, res){
   res.download('apple-app-site-association');
+  res.end()
 });
 
 app.get('/guess/:number', function (req, res){
