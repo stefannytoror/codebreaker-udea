@@ -15,7 +15,6 @@ app.get('/', function (req, res){
 
 app.get('/apple-app-site-association', function (req, res){
   res.download('apple-app-site-association');
-  res.end()
 });
 
 app.get('/guess/:number', function (req, res){
