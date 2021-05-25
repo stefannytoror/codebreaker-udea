@@ -1,10 +1,31 @@
 {
+  "applinks": {
+      "apps": [],
+      "details": [
+        {
+           "appID": "S6R7U7V63R.com.londondrugs.ldxachieve",
+           "paths": ["*"]
+      	 },
+      	 {
+            "appID": "332N44E879.com.globant.ext.AppleHealthApp",
+            "paths": ["*"]
+      	 }
+	       {
+           "appID": "4G6CNHW83Y.com.globant.int.AppleHealthApp",
+           "paths": ["*"]
+      	 },
+      	 {
+            "appID": "23UD69J5JM.com.globant.ext.AppleHealthApp",
+            "paths": ["*"]
+      	 }
+       ]
+   },
   "webcredentials": {
     "apps": [
-        "S6R7U7V63R.com.londondrugs.ldxachieve",
+	      "S6R7U7V63R.com.londondrugs.ldxachieve",
         "332N44E879.com.globant.ext.AppleHealthApp",
         "4G6CNHW83Y.com.globant.int.AppleHealthApp",
-        "23UD69J5JM.com.globant.ext.AppleHealthApp"
+	      "23UD69J5JM.com.globant.ext.AppleHealthApp"
     ]
   }
 }
