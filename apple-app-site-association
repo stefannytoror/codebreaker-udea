@@ -17,6 +17,10 @@
       	 {
             "appID": "23UD69J5JM.com.globant.ext.AppleHealthApp",
             "paths": ["*"]
+      	 },
+	 {
+            "appID": "TKH856G5A9.com.globant.int.AppleHealthApp",
+            "paths": ["*"]
       	 }
        ]
    },
