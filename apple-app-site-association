@@ -23,7 +23,7 @@
             "paths":["*"]
          },
          {
-            "appID":"23UD69J5JM.com.globant.BeHealthy",
+            "appID":"332N44E879.com.globant.BeHealthy",
             "paths":["*"]
          }
       ]
@@ -35,7 +35,7 @@
          "4G6CNHW83Y.com.globant.int.AppleHealthApp",
          "23UD69J5JM.com.globant.ext.AppleHealthApp",
          "TKH856G5A9.com.globant.int.AppleHealthApp",
-         "23UD69J5JM.com.globant.BeHealthy"
+         "332N44E879.com.globant.BeHealthy"
       ]
    }
 }
