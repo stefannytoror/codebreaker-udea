@@ -1,4 +1,4 @@
-# codebreaker-udea
+# codebreaker
 Code Breaker API
 
 [![codecov](https://codecov.io/gh/stefannytoror/codebreaker-udea/branch/master/graph/badge.svg)](https://codecov.io/gh/stefannytoror/codebreaker-udea)
